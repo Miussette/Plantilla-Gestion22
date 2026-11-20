@@ -1,0 +1,29 @@
+// Paleta original de Gestión22. Personaliza estas variables para otra marca.
+:root { --aula-green: #0bb523; --aula-dark: #00652e; --aula-border: #dce0df; --aula-gray: #4f565d; }
+body, #page, #page-content { background-color: #fff; }
+.navbar.fixed-top { background: var(--aula-green) !important; border-bottom-color: var(--aula-green); }
+.navbar.fixed-top .navbar-brand, .navbar.fixed-top .nav-link,
+.navbar.fixed-top .usermenu a.dropdown-toggle, .navbar.fixed-top .popover-region-toggle,
+.navbar.fixed-top .editmode-switch-form { color: #fff !important; }
+.navbar.fixed-top .nav-link:hover, .navbar.fixed-top .nav-link.active { background: #008d26; }
+.drawer, .drawercontent { background: #f7f8f9; }
+#page-header h1 { color: var(--aula-dark); }
+.secondary-navigation .nav-tabs { gap: 4px; border-bottom: 0; }
+.secondary-navigation .nav-tabs .nav-link { background: #dce0df; color: #00652e; border: 0; border-radius: 6px; }
+.secondary-navigation .nav-tabs .nav-link.active, .secondary-navigation .nav-tabs .nav-link:hover { background: #008d26; color: #fff; }
+.btn-primary { border-radius: 8px; }
+.course-section, .course-content .section.main { border: 1px solid var(--aula-border); border-radius: 18px; padding: 24px; margin-bottom: 20px; }
+.activity-item, .dashboard-card { border-radius: 12px; }
+.courseindex .courseindex-item.pageitem { background: #008d26; }
+.courseindex .courseindex-item.pageitem .courseindex-link { color: #fff; }
+.aula-hero { background: linear-gradient(120deg, #00652e, #008d26); color: #fff; padding: clamp(24px,4vw,48px); border-radius: 22px; margin: 16px 0 24px; }
+.aula-hero h2, .aula-hero h3 { color: #fff; }
+.aula-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 12px; font-weight: 700; }
+.aula-card { border: 1px solid var(--aula-border); background: #fff; color: var(--aula-gray); padding: clamp(16px,3vw,28px); border-radius: 18px; margin: 16px 0; }
+.aula-card h3 { color: var(--aula-dark); }
+.aula-note { border-left: 4px solid #0bb523; padding: 16px; background: #f1f3f2; border-radius: 8px; }
+body.pagelayout-login #page { background: #f7f8f9; }
+body.pagelayout-login #page .login-layout-left { background: linear-gradient(120deg,#00652e,#008d26) !important; }
+body.pagelayout-login #page .login-layout-left::after { display: none; }
+.login-container, .login-wrapper { border-radius: 22px; }
+@media(max-width:600px) { .course-section, .course-content .section.main { padding: 16px; } }

@@ -1,0 +1,36 @@
+/* EDITA AQUI EL CSS DE TU PLANTILLA.
+ * Este archivo se aplica despues del diseno base.
+ * Despues de cambiarlo, copia el tema a Moodle y purga sus caches.
+ * Tambien puedes escribir CSS desde Administracion del sitio >
+ * Apariencia > Temas > Aula Verde > CSS personalizado de la plantilla.
+ * El CSS guardado desde Moodle tiene prioridad sobre este archivo.
+ *
+ * Ejemplos: quita los comentarios de las reglas para activarlas.
+ */
+
+/* Color de la barra superior:
+.navbar.fixed-top {
+    background: #00652e !important;
+}
+*/
+
+/* Fondo y esquinas de la bienvenida:
+.aula-hero {
+    background: linear-gradient(120deg, #00652e, #0bb523);
+    border-radius: 12px;
+}
+*/
+
+/* Tarjetas de contenido:
+.aula-card {
+    border-color: #0bb523;
+    border-radius: 12px;
+    padding: 32px;
+}
+*/
+
+/* Fondo del acceso:
+body.pagelayout-login #page {
+    background: #eaf5ed;
+}
+*/
